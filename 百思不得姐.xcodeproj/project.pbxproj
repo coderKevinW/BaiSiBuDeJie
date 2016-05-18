@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261921931CEBED4D0043A527 /* KWGitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 261921921CEBED4D0043A527 /* KWGitTest.m */; };
 		268C8F541CDD999B00E18796 /* KWEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C8ED81CDD999B00E18796 /* KWEssenceViewController.m */; };
 		268C8F551CDD999B00E18796 /* KWFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C8EDE1CDD999B00E18796 /* KWFriendTrendsViewController.m */; };
 		268C8F561CDD999B00E18796 /* KWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C8EE41CDD999B00E18796 /* KWNavigationController.m */; };
@@ -67,6 +68,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		261921911CEBED4D0043A527 /* KWGitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWGitTest.h; sourceTree = "<group>"; };
+		261921921CEBED4D0043A527 /* KWGitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWGitTest.m; sourceTree = "<group>"; };
 		268C8ED71CDD999B00E18796 /* KWEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWEssenceViewController.h; sourceTree = "<group>"; };
 		268C8ED81CDD999B00E18796 /* KWEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWEssenceViewController.m; sourceTree = "<group>"; };
 		268C8EDD1CDD999B00E18796 /* KWFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -259,6 +262,8 @@
 				268C8F841CDD9FC800E18796 /* KWRecommendViewController.h */,
 				268C8F851CDD9FC800E18796 /* KWRecommendViewController.m */,
 				268C8F861CDD9FC800E18796 /* KWRecommendViewController.xib */,
+				261921911CEBED4D0043A527 /* KWGitTest.h */,
+				261921921CEBED4D0043A527 /* KWGitTest.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -697,6 +702,7 @@
 				268C8F871CDD9FC800E18796 /* KWRecommendViewController.m in Sources */,
 				268C8F951CDDA04A00E18796 /* SVProgressAnimatedView.m in Sources */,
 				268C8F7F1CDD999B00E18796 /* UIScrollView+MJExtension.m in Sources */,
+				261921931CEBED4D0043A527 /* KWGitTest.m in Sources */,
 				268C8F941CDDA04A00E18796 /* SVIndefiniteAnimatedView.m in Sources */,
 				268C8F5E1CDD999B00E18796 /* UIView+XMGExtension.m in Sources */,
 				268C8F761CDD999B00E18796 /* MJRefreshAutoStateFooter.m in Sources */,
