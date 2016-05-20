@@ -112,6 +112,7 @@
 		26A18EA41CEAC05D006F333C /* KWPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A18EA21CEAC05D006F333C /* KWPublishViewController.xib */; };
 		26A4173F1CE6969A006D6F56 /* NSDate+KWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4173E1CE6969A006D6F56 /* NSDate+KWExtension.m */; };
 		26A417421CE6AECA006D6F56 /* KWTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A417411CE6AECA006D6F56 /* KWTopicViewController.m */; };
+		26BE02A41CEEA0F500A9C23C /* KWABC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BE02A31CEEA0F500A9C23C /* KWABC.m */; };
 		26F9777C1CEC1A77009DA910 /* KWTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F9777B1CEC1A77009DA910 /* KWTopicVoiceView.m */; };
 		26F9777E1CEC1A8A009DA910 /* KWTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F9777D1CEC1A8A009DA910 /* KWTopicVoiceView.xib */; };
 		26F977811CEC215D009DA910 /* KWTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F977801CEC215D009DA910 /* KWTopicVideoView.m */; };
@@ -320,6 +321,8 @@
 		26A4173E1CE6969A006D6F56 /* NSDate+KWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KWExtension.m"; sourceTree = "<group>"; };
 		26A417401CE6AECA006D6F56 /* KWTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWTopicViewController.h; sourceTree = "<group>"; };
 		26A417411CE6AECA006D6F56 /* KWTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWTopicViewController.m; sourceTree = "<group>"; };
+		26BE02A21CEEA0F500A9C23C /* KWABC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWABC.h; sourceTree = "<group>"; };
+		26BE02A31CEEA0F500A9C23C /* KWABC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWABC.m; sourceTree = "<group>"; };
 		26F9777A1CEC1A77009DA910 /* KWTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWTopicVoiceView.h; sourceTree = "<group>"; };
 		26F9777B1CEC1A77009DA910 /* KWTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWTopicVoiceView.m; sourceTree = "<group>"; };
 		26F9777D1CEC1A8A009DA910 /* KWTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KWTopicVoiceView.xib; sourceTree = "<group>"; };
@@ -405,6 +408,8 @@
 				262011F91CE9A6C200F6E0DA /* KWShowPictureViewController.h */,
 				262011FA1CE9A6C200F6E0DA /* KWShowPictureViewController.m */,
 				262011FB1CE9A6C200F6E0DA /* KWShowPictureViewController.xib */,
+				26BE02A21CEEA0F500A9C23C /* KWABC.h */,
+				26BE02A31CEEA0F500A9C23C /* KWABC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1113,6 +1118,7 @@
 				26A18EA31CEAC05D006F333C /* KWPublishViewController.m in Sources */,
 				268C8F541CDD999B00E18796 /* KWEssenceViewController.m in Sources */,
 				268C8F6E1CDD999B00E18796 /* NSString+MJExtension.m in Sources */,
+				26BE02A41CEEA0F500A9C23C /* KWABC.m in Sources */,
 				268C8F6A1CDD999B00E18796 /* NSObject+MJClass.m in Sources */,
 				268C8F7C1CDD999B00E18796 /* MJRefreshStateHeader.m in Sources */,
 				268C8F691CDD999B00E18796 /* MJPropertyType.m in Sources */,
