@@ -12,6 +12,8 @@
 #import "UIView+XMGExtension.h"
 #import "UIImage+KWExtension.h"
 #import "UIBarButtonItem+KWExtension.h"
+#import "KWConst.h"
+#import "NSDate+KWExtension.h"
 
 //打印
 #ifdef DEBUG
@@ -21,9 +23,15 @@
 #endif
 
 #define KWLogFunc KWLog(@"%s", __func__)
+
 //颜色
 #define KWRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 //全局色
 #define KWGlobalBg KWRGBColor(223, 223, 223)
+
+//屏幕宽度
+#define KWScreenW [UIScreen mainScreen].bounds.size.width
+//屏幕高度
+#define KWScreenH [UIScreen mainScreen].bounds.size.height
 
 #endif

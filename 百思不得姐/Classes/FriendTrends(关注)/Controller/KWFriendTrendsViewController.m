@@ -8,6 +8,7 @@
 
 #import "KWFriendTrendsViewController.h"
 #import "KWRecommendViewController.h"
+#import "KWLoginRegisterViewController.h"
 
 @interface KWFriendTrendsViewController ()
 
@@ -36,5 +37,11 @@
 {
     KWRecommendViewController *vc = [[KWRecommendViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)loginOrRegisterClick
+{
+    KWLoginRegisterViewController *vc = [[KWLoginRegisterViewController alloc]init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 @end

@@ -1,5 +1,6 @@
 #import "AppDelegate.h"
 #import "KWTabBarController.h"
+#import "KWPushGuideView.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,9 @@
     self.window.rootViewController = tabBarVC;
     //成为主窗口并且可视
     [self.window makeKeyAndVisible];
+    //使用推送引导页
+    [KWPushGuideView showPushGuideView];
+    
     return YES;
 }
 

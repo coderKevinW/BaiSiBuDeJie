@@ -2,6 +2,7 @@
  UITabBar就是tabBar下面的一个整条，而tabBarItem(UITabBarButton)就是其中的图标
  */
 #import "KWTabBar.h"
+#import "KWPublishViewController.h"
 
 @interface KWTabBar()
 
@@ -23,11 +24,22 @@
         UIButton *publishButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
         [publishButton setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
+        //给publishButton添加点击事件
+        [publishButton addTarget:self action:@selector(publishButtonClick) forControlEvents:UIControlEventTouchUpInside];
+        
         [self addSubview:publishButton];
         
         self.publishButton = publishButton;
     }
     return self;
+}
+
+//点击publishButton事件
+- (void)publishButtonClick
+{
+    KWPublishViewController *publishVC = [[KWPublishViewController alloc]init
+    ];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:publishVC animated:NO completion:nil];
 }
 
 //布局(frame)发生变化之后会进入该方法
